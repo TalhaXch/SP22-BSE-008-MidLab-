@@ -53,5 +53,4 @@ function updateBigCup() {
 cups.forEach((cup, index) => {
   cup.addEventListener('click', () => fillSmallcups(index));
 });
-
 updateBigCup();
